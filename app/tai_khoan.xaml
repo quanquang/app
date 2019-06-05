@@ -1,0 +1,98 @@
+﻿<Page x:Class="app.tai_khoan"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:app"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="tai_khoan">
+
+    <Grid Background="#FFF9F9F6">
+        <StackPanel>
+            <Border CornerRadius="3" Margin="2" BorderBrush="Black" BorderThickness="1" Background="#FF538660" >
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10" Height="40">
+                    <TextBlock  Width="150" Text=" Mã nhân viên" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="200" Text="    Tên nhân viên" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="150" Text="Số điện thoại" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="150" Text="     Lương" VerticalAlignment="Center"></TextBlock>
+                    
+                </StackPanel>
+            </Border>
+            <Border CornerRadius="3" Margin="2" BorderBrush="Black" BorderThickness="1" Height="40">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0">
+                    <TextBlock  Width="150" Text="1" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="200" Text="Phan Đức Quân" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="150" Text="012345678" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="80" Text="6000000" VerticalAlignment="Center"></TextBlock>
+                    
+                    <Image Source="icon/edit.png" Height="15"/>
+                    <Image Source="icon/delete.png" Margin="20,0,0,0" Height="15"/>
+                </StackPanel>
+            </Border>
+            <Border CornerRadius="3" Margin="2" BorderBrush="Black" BorderThickness="1" Height="40">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0">
+                    <TextBlock  Width="150" Text="1" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="200" Text="Trần Ngọc Quang" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="150" Text="012345678" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="80" Text="6000000" VerticalAlignment="Center"></TextBlock>
+
+                    <Image Source="icon/edit.png" Height="15"/>
+                    <Image Source="icon/delete.png" Margin="20,0,0,0" Height="15"/>
+                </StackPanel>
+            </Border>
+            <Border CornerRadius="3" Margin="2" BorderBrush="Black" BorderThickness="1" Height="40">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0">
+                    <TextBlock  Width="150" Text="1" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="200" Text="Phan Đức Quân" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="150" Text="012345678" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="80" Text="6000000" VerticalAlignment="Center"></TextBlock>
+
+                    <Image Source="icon/edit.png" Height="15"/>
+                    <Image Source="icon/delete.png" Margin="20,0,0,0" Height="15"/>
+                </StackPanel>
+            </Border>
+            <Border CornerRadius="3" Margin="2" BorderBrush="Black" BorderThickness="1" Height="40">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0">
+                    <TextBlock  Width="150" Text="1" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="200" Text="Trần Ngọc Quang" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="150" Text="012345678" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="80" Text="6000000" VerticalAlignment="Center"></TextBlock>
+
+                    <Image Source="icon/edit.png" Height="15"/>
+                    <Image Source="icon/delete.png" Margin="20,0,0,0" Height="15"/>
+                </StackPanel>
+            </Border>
+            <Border CornerRadius="3" Margin="2" BorderBrush="Black" BorderThickness="1" Height="40">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0">
+                    <TextBlock  Width="150" Text="1" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="200" Text="Phan Đức Quân" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="150" Text="012345678" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="80" Text="6000000" VerticalAlignment="Center"></TextBlock>
+
+                    <Image Source="icon/edit.png" Height="15"/>
+                    <Image Source="icon/delete.png" Margin="20,0,0,0" Height="15"/>
+                </StackPanel>
+            </Border>
+            <Border CornerRadius="3" Margin="2" BorderBrush="Black" BorderThickness="1" Height="40">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0">
+                    <TextBlock  Width="150" Text="1" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="200" Text="Trần Ngọc Quang" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="150" Text="012345678" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock  Width="80" Text="6000000" VerticalAlignment="Center"></TextBlock>
+
+                    <Image Source="icon/edit.png" Height="15"/>
+                    <Image Source="icon/delete.png" Margin="20,0,0,0" Height="15"/>
+                </StackPanel>
+            </Border>
+            <Button Content="Thêm Nhân Viên" Height="40" Width="150" Margin="0,15,0,0"/>
+            <!--<ListView ItemsSource="{Binding dsThucUong}" SelectedIndex="{Binding index}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+        </StackPanel>
+    </Grid>
+</Page>

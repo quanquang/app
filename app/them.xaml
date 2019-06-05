@@ -1,0 +1,43 @@
+﻿<Window x:Class="app.them"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:app"
+        mc:Ignorable="d"
+        Title="Sửa Thức Uống" Height="450" Width="500">
+    <Grid>
+        <StackPanel>
+            
+            <TextBlock Text="Thức Uống" HorizontalAlignment="Center" FontSize="20" Foreground="Green" FontWeight="Bold" Margin="0,20,10,0"/>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Mã thức uống    " VerticalAlignment="Center"/>
+                <TextBox materialDesign:HintAssist.Hint="Nhập mã thức uống" materialDesign:ColorZoneAssist.Mode="Dark" Height="30" Width="300"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Tên thức uống    " VerticalAlignment="Center"/>
+                <TextBox materialDesign:HintAssist.Hint="Nhập mã thức uống" materialDesign:ColorZoneAssist.Mode="Dark" Height="30" Width="300"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Giá bán               " VerticalAlignment="Center"/>
+                <TextBox materialDesign:HintAssist.Hint="Nhập mã thức uống" materialDesign:ColorZoneAssist.Mode="Dark" Height="30" Width="300"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Nguyên vật liệu  " VerticalAlignment="Center"/>
+                <TextBox materialDesign:HintAssist.Hint="Nhập mã thức uống" materialDesign:ColorZoneAssist.Mode="Dark" Height="30" Width="300"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Hình ảnh" VerticalAlignment="Center"/>
+                <Button x:Name="btnBrowser" Width="80" Margin="40,5,0,0" Background="White">
+                    <StackPanel>
+                        <Image Source="image\browers.png" Width="100" Height="30"/>
+                        <TextBlock Text="Browser" FontSize="10" HorizontalAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <Button Content="Sửa Thức Uống" Width="150" Height="40" Margin="0,20,0,0"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

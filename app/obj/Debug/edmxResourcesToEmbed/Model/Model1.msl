@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLAppCoffeeModelStoreContainer" CdmEntityContainer="QLAppCoffeeEntities">
+    <EntitySetMapping Name="thucUongs">
+      <EntityTypeMapping TypeName="QLAppCoffeeModel.thucUong">
+        <MappingFragment StoreEntitySet="thucUong">
+          <ScalarProperty Name="maThucUong" ColumnName="maThucUong" />
+          <ScalarProperty Name="tenThucUong" ColumnName="tenThucUong" />
+          <ScalarProperty Name="giaBan" ColumnName="giaBan" />
+          <ScalarProperty Name="nguyenLieu" ColumnName="nguyenLieu" />
+          <ScalarProperty Name="anhThucUong" ColumnName="anhThucUong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

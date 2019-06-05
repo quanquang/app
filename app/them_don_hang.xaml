@@ -1,0 +1,38 @@
+﻿<Window x:Class="app.them_don_hang"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:app"
+        mc:Ignorable="d"
+        Title="Sửa đơn hàng" Height="450" Width="500">
+    <Grid>
+        <StackPanel>
+
+            <TextBlock Text="Đơn Hàng" HorizontalAlignment="Center" FontSize="20" Foreground="Green" FontWeight="Bold" Margin="0,20,10,0"/>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Mã hóa đơn         " VerticalAlignment="Center"/>
+                <TextBox materialDesign:HintAssist.Hint="Nhập mã thức uống" materialDesign:ColorZoneAssist.Mode="Dark" Height="30" Width="300"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Mã khách hàng    " VerticalAlignment="Center"/>
+                <TextBox materialDesign:HintAssist.Hint="Nhập mã thức uống" materialDesign:ColorZoneAssist.Mode="Dark" Height="30" Width="300"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Mã thức uống      " VerticalAlignment="Center"/>
+                <TextBox materialDesign:HintAssist.Hint="Nhập mã thức uống" materialDesign:ColorZoneAssist.Mode="Dark" Height="30" Width="300"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Tổng thanh toán  " VerticalAlignment="Center"/>
+                <TextBox materialDesign:HintAssist.Hint="Nhập mã thức uống" materialDesign:ColorZoneAssist.Mode="Dark" Height="30" Width="300"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Ngày đặt              " VerticalAlignment="Center"/>
+                <DatePicker></DatePicker>
+            </StackPanel>
+            <Button Content="Sửa Đơn Hàng" Width="150" Height="40" Margin="0,30,0,0"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,50 @@
+﻿<Window x:Class="app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:app"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        mc:Ignorable="d"
+        Title="Quản lý quán coffee" Height="700" Width="1000">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Background="#FFB39A5C">
+                <Button>
+                    <Image Source="icon/menu.png" Height="40" Width="40"/>
+                </Button>
+                <TextBlock Text="Quản Lý Quán" VerticalAlignment="Center" FontSize="14" FontStyle="Italic"></TextBlock>
+            </StackPanel>
+            <StackPanel>
+                
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
+                    <Button Height="40" Width="130" Content="Thực Đơn" Click="Button_Click" Margin="5">
+
+                    </Button>
+                    <Button Height="40" Width="130" Content="Đơn Hàng" Click="Button_Click_1" Margin="5">
+
+                    </Button>
+                    <Button Height="40" Width="130" Content="Nhân Viên" Margin="5" Click="Button_Click_4">
+
+                    </Button>
+                    <Button Height="40" Width="130" Content="Thống Kê" Margin="5" Click="Button_Click_2">
+
+                    </Button>
+                    <Button Height="40" Width="130" Content="Thông tin giảm giá" Margin="5" Click="Button_Click_5">
+
+                    </Button>
+                    <Button Height="40" Width="130" Content="Nhập kho" Margin="5" >
+
+                    </Button>
+
+                </StackPanel>
+                <StackPanel Margin="10">
+                    <Frame x:Name="Frame" NavigationUIVisibility="Hidden" Height="550" Margin="0,0,-0.4,0"/>
+                </StackPanel>
+
+            </StackPanel>
+            
+        </StackPanel>
+        
+    </Grid>
+</Window>
